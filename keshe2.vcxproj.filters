@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\MassOrg">
+      <UniqueIdentifier>{ed536489-919e-428a-b9d4-e6dca9615f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Member">
+      <UniqueIdentifier>{43ca3c07-0857-40d3-9bc0-f58720348177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Action">
+      <UniqueIdentifier>{bc5541ff-64c0-4bd5-beec-27109d0aaf9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source">
+      <UniqueIdentifier>{7c873c8f-a3c4-44fe-86e4-33e4de7d7357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Menu">
+      <UniqueIdentifier>{1ec8668a-8bf7-48f7-b012-9e8a796c2bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件\Source\源文件\MassOrg">
+      <UniqueIdentifier>{3a9f752d-a3bf-493c-a912-350b97227caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source\源文件\Member">
+      <UniqueIdentifier>{e056c0fa-bf67-4b75-891b-e0f484778f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source\源文件\Action">
+      <UniqueIdentifier>{af08bec7-cdef-46fc-807d-955eac3cd90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source\源文件\Source">
+      <UniqueIdentifier>{d234da6b-9c71-46bf-9f10-f8a06ad0e122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Source\源文件\Menu">
+      <UniqueIdentifier>{0f8de8cc-3ef3-4bae-8071-1e63589909c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="keshe2.cpp">
+      <Filter>头文件\Source\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Action\Action.cpp">
+      <Filter>头文件\Source\源文件\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="MassOrg\MassOrg.cpp">
+      <Filter>头文件\Source\源文件\MassOrg</Filter>
+    </ClCompile>
+    <ClCompile Include="Member\Member.cpp">
+      <Filter>头文件\Source\源文件\Member</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Source.cpp">
+      <Filter>头文件\Source\源文件\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>头文件\Source\源文件\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action\Action.h">
+      <Filter>头文件\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="MassOrg\MassOrg.h">
+      <Filter>头文件\MassOrg</Filter>
+    </ClInclude>
+    <ClInclude Include="Member\Member.h">
+      <Filter>头文件\Member</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>头文件\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Source.h">
+      <Filter>头文件\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
